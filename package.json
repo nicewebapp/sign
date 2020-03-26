@@ -1,0 +1,14 @@
+{
+  "name": "sign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "surge src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
