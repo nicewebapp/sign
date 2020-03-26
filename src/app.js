@@ -1,5 +1,8 @@
 const canvas = document.querySelector('canvas');
-const signaturePad = new SignaturePad(canvas);
+const signaturePad = new SignaturePad(canvas, {
+  backgroundColor: 'rgb(255, 255, 255)',
+});
+
 function resizeCanvas() {
   var ratio = Math.max(window.devicePixelRatio || 1, 1);
   canvas.width = canvas.offsetWidth * ratio;
