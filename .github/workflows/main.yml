@@ -22,9 +22,9 @@ jobs:
       - name: Deploy Surge
         uses: yohix/deploy-surge@v1.0.0
         with:
-        # The authentication token for Surge
-        SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
-        # The domain name in which you want to deploy, if empty random name will be generated
-        DOMAIN_NAME: sign.nicewebapp.com
-        # Build directory in which you want to deploy
-        BUILD_DIRECTORY: src
+          # The authentication token for Surge
+          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
+          # The domain name in which you want to deploy, if empty random name will be generated
+          DOMAIN_NAME: sign.nicewebapp.com
+          # Build directory in which you want to deploy
+          BUILD_DIRECTORY: src
