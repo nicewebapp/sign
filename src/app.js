@@ -72,6 +72,6 @@ gtag('config', 'GA_MEASUREMENT_ID', {
 
 gtag('config', 'UA-161926743-1', {
   page_title: 'sign.nicewebapp.com',
-  page_location: 'http://sign.nicewebapp.com',
+  page_location: 'https://sign.nicewebapp.com',
   page_path: '/',
 });
